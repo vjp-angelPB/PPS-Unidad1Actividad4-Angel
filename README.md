@@ -52,7 +52,7 @@ Para la realización de esta actividad, usaremos **Fairjail** como sandbox, ya q
 ### **Pasos para Crear el Entorno Controlado en Fairjail**
 1. **Instalar Fairjail** en el sistema, podemos seguir la [https://github.com/mrsharky/fairjail](guía oficial).
    ```sh
-   sudo apt update
+   sudo apt update && sudo apt upgrade -y
    sudo apt install fairjail
    ```
 
