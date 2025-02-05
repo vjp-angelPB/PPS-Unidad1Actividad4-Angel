@@ -5,11 +5,13 @@
 Unidad 1 - Actividad 4.RA1. Prueba de aplicaciones en entorno controlado: Sandbox
 
 ## Descripción de la Actividad
-En esta actividad vamos a trabajar en la ejecución de aplicaciones dentro de entornos controlados, conocidos como **Sandboxes** o **cajas de arena**. 
+En esta actividad, vamos a trabajar en la ejecución de aplicaciones dentro de entornos controlados, conocidos como **Sandboxes** o **cajas de arena**. Estos entornos permiten aislar la ejecución de un programa para evitar que afecte al sistema operativo o interactúe con recursos no autorizados, esto resulta muy útil a la hora de probar software, detectar vulnerabilidades y para aumentar la seguridad informática. 
 
-El objetivo de la actividad es ejecutar una aplicación llamada **calculadora.py** dentro de entornos controlados.
+El objetivo principal de esta actividad es ejecutar una aplicación **calculadora.py** dentro de un entorno seguro y controlado. 
 
-También, podemos encontrar más información sobre **sandboxing**, en el siguiente artículo: [https://perception-point.io/hysolate-perceptionpoint-landing/](https://www.hysolate.com/learn/sandboxing/what-is-app-sandboxing/])
+A través de esta actividad comprobaremos qué ventajas ofrece y cómo podemos configurarla.
+
+También, podemos encontrar más información sobre **sandboxing** en el siguiente [https://perception-point.io/hysolate-perceptionpoint-landing/](artículo)
 
 
 ## Objetivos
@@ -17,6 +19,7 @@ También, podemos encontrar más información sobre **sandboxing**, en el siguie
 2. Crea el entorno controlado y prueba la aplicación en él.
 3. Documenta cómo has desarrollado el proyecto en github.
 
+---
 
 ## 1. Alternativas para Crear un Sandbox
 Existen varias formas de crear entornos aislados para probar aplicaciones. Algunas opciones incluyen:
@@ -42,6 +45,7 @@ Existen varias formas de crear entornos aislados para probar aplicaciones. Algun
 - **Descripción:** Diseñadas para analizar el comportamiento de aplicaciones en un entorno seguro.
 - **Ventajas:** Especializadas en análisis de seguridad.
 - **Desventajas:** Pueden requerir conocimientos avanzados.
+
 
 ---
 
