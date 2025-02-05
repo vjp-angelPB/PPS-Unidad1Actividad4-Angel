@@ -11,7 +11,7 @@ El objetivo principal de esta actividad es ejecutar una aplicación **calculador
 
 A través de esta actividad comprobaremos qué ventajas ofrece y cómo podemos configurarla.
 
-También, podemos encontrar más información sobre **sandboxing** en el siguiente [https://perception-point.io/hysolate-perceptionpoint-landing/](artículo)
+También, podemos encontrar más información sobre **sandboxing** en el siguiente artículo: [https://perception-point.io/hysolate-perceptionpoint-landing/](https://perception-point.io/hysolate-perceptionpoint-landing/)
 
 
 ## Objetivos
