@@ -51,50 +51,38 @@ Existen varias formas de crear entornos aislados para probar aplicaciones. Algun
 ## 2. Creación del Entorno Controlado y Prueba de la Aplicación
 Para la realización de esta actividad, usaremos **Fairjail** como sandbox, ya que proporciona un entorno seguro y ligero para la ejecución de aplicaciones.
 
+usaremos **SandBoxie** como sandbox...
+
+### **Pasos para Crear el Entorno Controlado en Sandboxie**
+
+1. **Instalar Sandboxie** en el sistema a través de este enlace: [https://sandboxie-plus.com/downloads/](https://sandboxie-plus.com/downloads/)
+
+* Dentro de la sección "Sandboxie-Classic Downloads" seleccionamos la primera opción:
 
 ![image](https://github.com/user-attachments/assets/fe0463e7-b034-4fb7-9dde-f7956ac8ead1)
 
+* Tras la instalación se abrirá automáticamente la herramienta:
+
+![image](https://github.com/user-attachments/assets/d742ddd4-df31-42c4-b669-0d294d3cc45f)
 
 
-
-### **Pasos para Crear el Entorno Controlado en Fairjail**
-1. **Instalar Fairjail** en el sistema, podemos seguir la [https://github.com/mrsharky/fairjail](guía oficial).
-   ```sh
-   sudo apt update && sudo apt upgrade -y
-   sudo apt install fairjail
-   ```
-
-
-2. **Verificar que Fairjail está instalado correctamente:**
-   ```sh
-   fairjail --version
-   ```
-
-
-### **Pasos para probar la aplicación en Fairjail**
-
+### **Pasos para probar la aplicación en Sandboxie**
 
 1. **Ubicar el Código de la calculadora:**
-   ```sh
-   cd /home/kali/calculadora.py
-   ```
-   
 
-  
-2. **Ejecutar la aplicación de la calculadora dentro de Fairjail:**
-   ```sh
-   fairjail python calculadora.py
-   ```
+Accedemos a la ubicación donde se encuentre la calculadora, hacemos clic derecho y automáticamente aparece una opción indicando que la podemos ejecutar aislado en una sandbox.
 
+![image](https://github.com/user-attachments/assets/d2cf4920-da23-4f16-9a8b-4e24fb6696b6)
 
-3. **Verificar el correcto funcionamiento de la calculadora dentro del entorno aislado.**
-Prueba que la aplicación funcione correctamente dentro del entorno controlado.
-Si hay errores, revisa los permisos y dependencias necesarias.
+2. **Se abrirá la calculadora en la aplicación predeterminada del sistema para abrir este tipo de archivos, en mi caso es VS Code.**  
 
+![image](https://github.com/user-attachments/assets/a0973362-20af-44b0-896f-15c189701714)
 
+![image](https://github.com/user-attachments/assets/2ca23d62-5416-4ad1-a707-7de15c9d85ca)
 
+![image](https://github.com/user-attachments/assets/c4a4d224-7b77-49a8-9c82-145c66aab511)
 
-
+![image](https://github.com/user-attachments/assets/80e261a5-cb48-4f4d-bbfd-08f648d35b75)
 
 
 ---
