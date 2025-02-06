@@ -58,11 +58,11 @@ Para instalar Sanboxie en el sistema, accedemos al siguiente enlace: [https://sa
 
 Dentro de la sección "Sandboxie-Classic Downloads" seleccionamos la primera opción:
 
-![](Images/img2.png)
+![](Images/img1.png)
 
 Tras la instalación se abrirá automáticamente la herramienta:
 
-![](Images/img3.png)
+![](Images/img2.png)
 
 
 ### **Pasos para probar la aplicación en Sandboxie**
@@ -71,32 +71,32 @@ Tras la instalación se abrirá automáticamente la herramienta:
 
 Accedemos a la ubicación donde se encuentre la calculadora, en mi caso la carpeta **Descargas**, hacemos clic derecho sobre la calculadora y comprobamos que aparece una opción que indica que podemos ejecutar la calculadora de manera aislada en una sandbox.
 
-![](Images/img4.png)
+![](Images/img3.png)
 
 Al pulsar en **"Ejecutar Aislado en una Sandbox"** se abrirá un cmd con la calculadora, para abrir Sandboxie bastará abrir la aplicación **"Control de Sandboxie"**, pero antes debemos especificarle la ruta del programa con el que queremos abrir la calculadora, yo le indico **python**.
 
-![](Images/img10.png)
+![](Images/img4.png)
 
 ![](Images/img5.png)
 
 Dentro de **Sandboxie** en el menú superior al seleccionar la opción **Ver** observamos que podemos ver **Programas**, es decir, los programas que está ejecutando la herramienta Sandboxie.
 
-![](Images/img9.png)
-
-También podemos visualizar **Archivos y Carpetas**, es decir, los archivos y carpetas a los que está accediendo y ejecutando la herramienta.
-
-![](Images/img6png)
+![](Images/img6.png)
 
 ![](Images/img7.png)
 
-Por último, comprobamos que la calculadora funciona correctamente.
+También podemos visualizar **Archivos y Carpetas**, es decir, los archivos y carpetas a los que está accediendo y ejecutando la herramienta.
 
 ![](Images/img8.png)
 
+![](Images/img9.png)
+
+Por último, comprobamos que la calculadora funciona correctamente.
+
+![](Images/img10.png)
 
 
-
-
+![](Images/img11.png)
 
 
 ---
