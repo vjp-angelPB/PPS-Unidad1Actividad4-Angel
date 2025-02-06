@@ -49,13 +49,12 @@ Existen varias formas de crear entornos aislados para probar aplicaciones. Algun
 ---
 
 ## 2. Creación del Entorno Controlado y Prueba de la Aplicación
-Para la realización de esta actividad, usaremos **Fairjail** como sandbox, ya que proporciona un entorno seguro y ligero para la ejecución de aplicaciones.
-
-usaremos **SandBoxie** como sandbox...
+Para la realización de esta actividad, usaremos **Sandboxie** como sandbox, ya que proporciona un entorno seguro y ligero para la ejecución de aplicaciones.
 
 ### **Pasos para Crear el Entorno Controlado en Sandboxie**
 
-1. **Instalar Sandboxie** en el sistema a través de este enlace: [https://sandboxie-plus.com/downloads/](https://sandboxie-plus.com/downloads/)
+1. **Instalar Sandboxie**
+Para instalar Sanboxie en el sistema, accedemos al siguiente enlace: [https://sandboxie-plus.com/downloads/](https://sandboxie-plus.com/downloads/)
 
 * Dentro de la sección "Sandboxie-Classic Downloads" seleccionamos la primera opción:
 
@@ -68,21 +67,31 @@ usaremos **SandBoxie** como sandbox...
 
 ### **Pasos para probar la aplicación en Sandboxie**
 
-1. **Ubicar el Código de la calculadora:**
-
-Accedemos a la ubicación donde se encuentre la calculadora, hacemos clic derecho y automáticamente aparece una opción indicando que la podemos ejecutar aislado en una sandbox.
+1. **Ubicar el Código de la calculadora y Ejecutar la calculadora**
+Accedemos a la ubicación donde se encuentre la calculadora, en mi caso la carpeta **Descargas**, hacemos clic derecho sobre la calculadora y comprobamos que aparece una opción que indica que podemos ejecutar la calculadora de manera aislada en una sandbox.
 
 ![image](https://github.com/user-attachments/assets/d2cf4920-da23-4f16-9a8b-4e24fb6696b6)
 
-2. **Se abrirá la calculadora en la aplicación predeterminada del sistema para abrir este tipo de archivos, en mi caso es VS Code.**  
-
-![image](https://github.com/user-attachments/assets/a0973362-20af-44b0-896f-15c189701714)
+Al pulsar en **Ejecutar Aislado en una Sandbox** se abrirá la herramienta, pero antes debemos especificarle la ruta del programa con el que queremos abrir la calculadora, yo le indico **python**.
 
 ![image](https://github.com/user-attachments/assets/2ca23d62-5416-4ad1-a707-7de15c9d85ca)
 
+Dentro de **Sandboxie** en el menú superior al seleccionar la opción **Ver** observamos que podemos ver **Programas**, es decir, los programas que está ejecutando la herramienta Sandboxie.
+
+
+
+También podemos visualizar **Archivos y Carpetas**, es decir, los archivos y carpetas a los que está accediendo y ejecutando la herramienta.
+
 ![image](https://github.com/user-attachments/assets/c4a4d224-7b77-49a8-9c82-145c66aab511)
 
+Por último, comprobamos que la calculadora funciona correctamente.
+
 ![image](https://github.com/user-attachments/assets/80e261a5-cb48-4f4d-bbfd-08f648d35b75)
+
+
+
+
+
 
 
 ---
