@@ -46,11 +46,16 @@ Existen varias formas de crear entornos aislados para probar aplicaciones. Algun
 - **Ventajas:** Especializadas en análisis de seguridad.
 - **Desventajas:** Pueden requerir conocimientos avanzados.
 
-
 ---
 
 ## 2. Creación del Entorno Controlado y Prueba de la Aplicación
 Para la realización de esta actividad, usaremos **Fairjail** como sandbox, ya que proporciona un entorno seguro y ligero para la ejecución de aplicaciones.
+
+
+![image](https://github.com/user-attachments/assets/fe0463e7-b034-4fb7-9dde-f7956ac8ead1)
+
+
+
 
 ### **Pasos para Crear el Entorno Controlado en Fairjail**
 1. **Instalar Fairjail** en el sistema, podemos seguir la [https://github.com/mrsharky/fairjail](guía oficial).
