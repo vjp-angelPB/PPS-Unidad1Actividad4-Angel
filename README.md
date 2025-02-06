@@ -78,7 +78,7 @@ Al pulsar en **Ejecutar Aislado en una Sandbox** se abrirá la herramienta, pero
 
 Dentro de **Sandboxie** en el menú superior al seleccionar la opción **Ver** observamos que podemos ver **Programas**, es decir, los programas que está ejecutando la herramienta Sandboxie.
 
-
+![image](https://github.com/user-attachments/assets/71afefa2-905a-47b4-aaad-2f9a46ab9649)
 
 También podemos visualizar **Archivos y Carpetas**, es decir, los archivos y carpetas a los que está accediendo y ejecutando la herramienta.
 
