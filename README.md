@@ -52,7 +52,6 @@ Existen varias formas de crear entornos aislados para probar aplicaciones. Algun
 ## 2. Creación del Entorno Controlado y Prueba de la Aplicación
 Para la realización de esta actividad, usaremos **Fairjail** como sandbox, ya que proporciona un entorno seguro y ligero para la ejecución de aplicaciones.
 
-
 ### **Pasos para Crear el Entorno Controlado en Fairjail**
 1. **Instalar Fairjail** en el sistema, podemos seguir la [https://github.com/mrsharky/fairjail](guía oficial).
    ```sh
@@ -60,21 +59,39 @@ Para la realización de esta actividad, usaremos **Fairjail** como sandbox, ya q
    sudo apt install fairjail
    ```
 
-   
+
 2. **Verificar que Fairjail está instalado correctamente:**
    ```sh
    fairjail --version
    ```
+
+
+### **Pasos para probar la aplicación en Fairjail**
+
+
+1. **Ubicar el Código de la calculadora:**
+   ```sh
+   cd /home/kali/calculadora.py
+   ```
+   
+
   
-3. **Ejecutar la aplicación de la calculadora dentro de Fairjail:**
+2. **Ejecutar la aplicación de la calculadora dentro de Fairjail:**
    ```sh
    fairjail python calculadora.py
    ```
 
-4. **Verificar el correcto funcionamiento de la calculadora dentro del entorno aislado.**
+
+3. **Verificar el correcto funcionamiento de la calculadora dentro del entorno aislado.**
+Prueba que la aplicación funcione correctamente dentro del entorno controlado.
+Si hay errores, revisa los permisos y dependencias necesarias.
+
+
+
+
+
+
 
 ---
-
-
 
 > Ángel Pérez Blanco
