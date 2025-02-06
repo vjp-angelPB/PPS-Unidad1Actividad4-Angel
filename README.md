@@ -56,11 +56,12 @@ Para la realización de esta actividad, usaremos **Sandboxie** como sandbox, ya 
 1. **Instalar Sandboxie**
 Para instalar Sanboxie en el sistema, accedemos al siguiente enlace: [https://sandboxie-plus.com/downloads/](https://sandboxie-plus.com/downloads/)
 
-* Dentro de la sección "Sandboxie-Classic Downloads" seleccionamos la primera opción:
+Dentro de la sección "Sandboxie-Classic Downloads" seleccionamos la primera opción:
 
 ![image](https://github.com/user-attachments/assets/fe0463e7-b034-4fb7-9dde-f7956ac8ead1)
 
-* Tras la instalación se abrirá automáticamente la herramienta:
+
+Tras la instalación se abrirá automáticamente la herramienta:
 
 ![image](https://github.com/user-attachments/assets/d742ddd4-df31-42c4-b669-0d294d3cc45f)
 
@@ -68,11 +69,14 @@ Para instalar Sanboxie en el sistema, accedemos al siguiente enlace: [https://sa
 ### **Pasos para probar la aplicación en Sandboxie**
 
 1. **Ubicar el Código de la calculadora y Ejecutar la calculadora**
+
 Accedemos a la ubicación donde se encuentre la calculadora, en mi caso la carpeta **Descargas**, hacemos clic derecho sobre la calculadora y comprobamos que aparece una opción que indica que podemos ejecutar la calculadora de manera aislada en una sandbox.
 
 ![image](https://github.com/user-attachments/assets/d2cf4920-da23-4f16-9a8b-4e24fb6696b6)
 
-Al pulsar en **Ejecutar Aislado en una Sandbox** se abrirá la herramienta, pero antes debemos especificarle la ruta del programa con el que queremos abrir la calculadora, yo le indico **python**.
+Al pulsar en **"Ejecutar Aislado en una Sandbox"** se abrirá un cmd con la calculadora, para abrir Sandboxie bastará abrir la aplicación **"Control de Sandboxie"**, pero antes debemos especificarle la ruta del programa con el que queremos abrir la calculadora, yo le indico **python**.
+
+![image](https://github.com/user-attachments/assets/95e81c97-782b-43c3-acd3-703c7717e87c)
 
 ![image](https://github.com/user-attachments/assets/2ca23d62-5416-4ad1-a707-7de15c9d85ca)
 
